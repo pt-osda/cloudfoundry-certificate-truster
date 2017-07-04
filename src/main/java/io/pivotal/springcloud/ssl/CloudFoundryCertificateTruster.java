@@ -65,6 +65,7 @@ public class CloudFoundryCertificateTruster implements ApplicationContextInitial
 						log.info("trusting certificate at {}:{} succeeded", host, httpsPort);
 					} catch (Exception e) {
 						log.error("trusting certificate at {}:{} failed", host, httpsPort, e);
+                        System.exit(1);
 					}
 				}
 			} catch (MalformedURLException e1) {
@@ -86,6 +87,7 @@ public class CloudFoundryCertificateTruster implements ApplicationContextInitial
 						sslCertificateTruster.trustCertificateInternal(host, port, 5000);
 					} catch (Exception e) {
 						log.error("trusting certificate at {}:{} failed", host, port, e);
+                        System.exit(1);
 					}
 				}
 			}

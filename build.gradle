@@ -180,13 +180,13 @@ build.dependsOn("updateRootDocs")
 
 buildscript {
 	repositories {
-		// mavenLocal()
+		//mavenLocal()
 		maven {
 			url "https://plugins.gradle.org/m2/"
 		}
 	}
 	dependencies {
-		// classpath "com.github.pt-osda.java-dependencies-analysis:java-dependencies-analysis:1.0.0-SNAPSHOT"
+		//classpath "com.github.pt-osda.java-dependencies-analysis:java-dependencies-analysis:1.0.0-SNAPSHOT"
 		classpath "gradle.plugin.com.github.pt-osda.java-dependencies-analysis:java-dependencies-analysis:1.0.0-SNAPSHOT"
 	}
 }

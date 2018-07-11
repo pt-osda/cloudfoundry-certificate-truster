@@ -186,8 +186,8 @@ buildscript {
 		}
 	}
 	dependencies {
-		//classpath "com.github.pt-osda.java-dependencies-analysis:java-dependencies-analysis:1.0.0-SNAPSHOT"
-		classpath "gradle.plugin.com.github.pt-osda.java-dependencies-analysis:java-dependencies-analysis:1.0.0-SNAPSHOT"
+		//classpath "com.github.pt-osda.java-dependencies-analysis:java-dependencies-analysis:1.0.1-SNAPSHOT"
+		classpath "gradle.plugin.com.github.pt-osda.java-dependencies-analysis:java-dependencies-analysis:1.0.1-SNAPSHOT"
 	}
 }
 

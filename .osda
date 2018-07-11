@@ -1,0 +1,7 @@
+{
+  "project_id":"cctp",
+  "project_name":"cloudfoundry-certificate-truster-WithPolicy",
+  "admin":"rui",
+  "fail":false,
+  "api_cache_time":"500"
+}
